@@ -8,7 +8,7 @@ composer require tymon/jwt-auth:dev-develop
 cp .env.example .env
 php artisan jwt:secret
 
-  php artisan key:generate
+php artisan key:generate
 
 php artisan migrate
 
